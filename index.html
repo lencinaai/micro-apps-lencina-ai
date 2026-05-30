@@ -1255,27 +1255,120 @@ const apps = [
   },
   {
     id: 2, status: 'em-breve',
-    nome: 'Close Up de Ambientes',
-    desc: 'Duas imagens (ambiente + recorte) → prompt para close-up realista de altíssima qualidade.',
-    output: 'Midjourney · Flux · Ideogram',
-    diferenciais: ['Análise de 2 imagens simultâneas', 'Preserva contexto do ambiente', 'Alta fidelidade de detalhe'],
-    icon: '🔍'
+    nome: 'Planta → Render Realista',
+    desc: 'Planta baixa ou croqui → prompt fotorrealista 2D ou 3D sem distorcer o layout original.',
+    output: 'Midjourney · Flux · Stable Diffusion',
+    diferenciais: ['Lê o layout sem distorcer', 'Modo 2D ou 3D realista', 'Locks estruturais automáticos'],
+    link: '',
+    icon: '📐'
   },
   {
     id: 3, status: 'em-breve',
-    nome: 'Vídeo de Ambientes',
-    desc: 'Dois modos: vazio→mobilado em vídeo, ou adiciona movimento e vida a cenas estáticas.',
-    output: 'VO3 · Kling · Runway · Hailuo',
-    diferenciais: ['Modo transição + modo movimento', 'Compatível com todos os geradores', 'Narrativa visual automática'],
-    icon: '🎬'
+    nome: 'Time Lapse de Obra',
+    desc: 'Terreno + projeto final → sequência de prompts crescente ou decrescente de construção.',
+    output: 'Midjourney · Flux · Ideogram',
+    diferenciais: ['Porcentagem de obra selecionável', 'Modo crescente e decrescente', 'Com ou sem trabalhadores'],
+    link: '',
+    icon: '🏗️'
   },
   {
     id: 4, status: 'em-breve',
-    nome: 'Planta para Foto Realista',
-    desc: 'Planta baixa ou render → prompt que gera foto fotorrealista sem alterar o layout original.',
-    output: 'Midjourney · Flux · Stable Diffusion',
-    diferenciais: ['Lê o layout sem distorcer', 'Fotorrealismo arquitetônico', 'Zero alteração na planta'],
-    icon: '📐'
+    nome: 'Pessoas na Cena',
+    desc: 'Adicione, remova ou troque pessoas e animais em qualquer ambiente — sem sair do app.',
+    output: 'Midjourney · Flux · Ideogram',
+    diferenciais: ['3 modos: adicionar, remover, trocar', 'Aceita recorte de referência', 'Preserva o ambiente original'],
+    link: '',
+    icon: '👤'
+  },
+  {
+    id: 5, status: 'em-breve',
+    nome: 'Close-up da Cena',
+    desc: 'Imagem geral + recorte → prompt de close-up fotorrealista em altíssima resolução.',
+    output: 'Midjourney · Flux · Ideogram',
+    diferenciais: ['Análise de 2 imagens', 'Preserva contexto do ambiente', 'Alta fidelidade de detalhe'],
+    link: '',
+    icon: '🔍'
+  },
+  {
+    id: 6, status: 'em-breve',
+    nome: 'Leitura Técnica',
+    desc: 'Sobe uma imagem e recebe ficha completa do ambiente — ou prompt para recriar com fidelidade.',
+    output: 'Listagem técnica · Prompt para qualquer gerador',
+    diferenciais: ['Lê cores, materiais e metragens', 'Modo lista ou modo prompt', 'Precisão técnica arquitetônica'],
+    link: '',
+    icon: '🔬'
+  },
+  {
+    id: 7, status: 'em-breve',
+    nome: 'Troca de Clima',
+    desc: 'Mude a estação do ano ou o horário do dia em qualquer imagem de ambiente ou fachada.',
+    output: 'Midjourney · Flux · Firefly',
+    diferenciais: ['4 estações do ano', 'Horário: amanhecer, dia, entardecer, noite', 'Preserva a cena original'],
+    link: '',
+    icon: '🌤️'
+  },
+  {
+    id: 8, status: 'em-breve',
+    nome: 'Transição Vazio → Mobiliado',
+    desc: 'Ambiente vazio + referência mobilada → prompt de vídeo de transição para qualquer motor.',
+    output: 'VO3 · Kling · Hailuo · Wan',
+    diferenciais: ['Seleciona a plataforma de vídeo', 'Formato story, reels ou YouTube', 'Prompt otimizado por motor'],
+    link: '',
+    icon: '🎬'
+  },
+  {
+    id: 9, status: 'em-breve',
+    nome: 'Time Lapse Obra (Vídeo)',
+    desc: 'Terreno + projeto → prompt de vídeo do processo de construção em qualquer motor de IA.',
+    output: 'VO3 · Kling · Hailuo · Wan',
+    diferenciais: ['Porcentagem de obra selecionável', 'Prompt por plataforma', 'Processo de obra realista'],
+    link: '',
+    icon: '🏠'
+  },
+  {
+    id: 10, status: 'em-breve',
+    nome: 'Gerador de Vídeo Livre',
+    desc: 'Descreva qualquer cena ou suba imagens de referência → prompt de vídeo para o motor escolhido.',
+    output: 'VO3 · Kling · Hailuo · Wan · Seedance',
+    diferenciais: ['Livre ou com imagem de referência', 'Suporta todos os motores', 'Formato por plataforma'],
+    link: '',
+    icon: '🎥'
+  },
+  {
+    id: 11, status: 'em-breve',
+    nome: 'Legendas Multi-Plataforma',
+    desc: 'Descreva seu conteúdo → legendas e títulos formatados para cada rede social de uma vez.',
+    output: 'Instagram · TikTok · YouTube · LinkedIn',
+    diferenciais: ['Caracteres e hashtags corretos por plataforma', 'Tom adaptado a cada algoritmo', 'Gera todas de uma vez'],
+    link: '',
+    icon: '✍️'
+  },
+  {
+    id: 12, status: 'em-breve',
+    nome: 'Planejador de Cortes',
+    desc: 'Descreva seu vídeo master → plano completo de cortes e dias de postagem distribuídos.',
+    output: 'Plano editorial · Roteiro de distribuição',
+    diferenciais: ['Plano de até 30 dias', 'Formatos por plataforma', 'Maximiza o alcance do vídeo'],
+    link: '',
+    icon: '✂️'
+  },
+  {
+    id: 13, status: 'em-breve',
+    nome: 'Ideias para Vídeo',
+    desc: 'Descreva sua ideia → hooks, roteiro ou ângulos criativos prontos para produzir.',
+    output: 'Hooks · Roteiro · Ideias gerais',
+    diferenciais: ['3 modos: hook, roteiro, ideias', 'Adaptado para redes sociais', 'Nunca repete a mesma saída'],
+    link: '',
+    icon: '💡'
+  },
+  {
+    id: 14, status: 'em-breve',
+    nome: 'Anúncios Imobiliários',
+    desc: 'Informe os dados do imóvel → anúncios prontos para WhatsApp, Instagram, site e LinkedIn.',
+    output: 'WhatsApp · Instagram · Site · LinkedIn',
+    diferenciais: ['Copy imobiliária especializada', 'Formato por canal', 'Base de conhecimento do litoral RS'],
+    link: '',
+    icon: '🏡'
   }
 ];
 
