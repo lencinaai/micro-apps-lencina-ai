@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Pessoas na Cena — by Lencina.AI</title>
+  <title>Pessoas na Cena â€” by Lencina.AI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -105,7 +105,7 @@
     .prompt::placeholder{color:rgba(154,164,178,0.56);}
     .prompt:focus{border-color:rgba(160,99,246,0.44);box-shadow:0 0 0 4px rgba(160,99,246,0.08);}
 
-    /* MODE SELECTOR — 3 opções */
+    /* MODE SELECTOR â€” 3 opÃ§Ãµes */
     .modeSection{margin-bottom:10px;}
     .modeLabel{font-size:10.5px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:7px;}
     .modeRow{display:flex;gap:8px;}
@@ -225,13 +225,13 @@
   <div id="loginGate">
     <div class="loginCard">
       <div class="loginLogo">Pessoas na <em>Cena</em></div>
-      <div class="loginSub">by Lencina.AI &nbsp;·&nbsp; Acesso licenciado</div>
+      <div class="loginSub">by Lencina.AI &nbsp;Â·&nbsp; Acesso licenciado</div>
       <div class="loginField"><label>E-mail</label><input class="loginInput" id="loginEmail" type="email" placeholder="seu@email.com" autocomplete="email"></div>
-      <div class="loginField"><label>Senha</label><input class="loginInput" id="loginPass" type="password" placeholder="••••••••" autocomplete="current-password"></div>
+      <div class="loginField"><label>Senha</label><input class="loginInput" id="loginPass" type="password" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" autocomplete="current-password"></div>
       <button class="loginBtn" id="loginBtn">Entrar</button>
       <div class="loginErr" id="loginErr"></div>
-      <div class="loginFooter">Ainda não tem acesso? <a href="#" style="color:var(--accent-2);text-decoration:none;font-weight:600;">Adquirir agora →</a></div>
-      <div class="loginFooter" style="margin-top:6px;font-size:11px;opacity:.5;">Dúvidas? contatolencina.ai@gmail.com</div>
+      <div class="loginFooter">Ainda nÃ£o tem acesso? <a href="#" style="color:var(--accent-2);text-decoration:none;font-weight:600;">Adquirir agora â†’</a></div>
+      <div class="loginFooter" style="margin-top:6px;font-size:11px;opacity:.5;">DÃºvidas? contatolencina.ai@gmail.com</div>
     </div>
   </div>
 
@@ -261,7 +261,7 @@
   <!-- STAGE -->
   <section class="stage reveal d2" id="stage">
     <div id="prevMain"></div>
-    <div class="refOverlay" id="refOverlay"><img id="refThumbStage" src="" alt="ref"><div class="refLabel">Referência</div></div>
+    <div class="refOverlay" id="refOverlay"><img id="refThumbStage" src="" alt="ref"><div class="refLabel">ReferÃªncia</div></div>
     <div class="empty">
       <svg class="bigIris" viewBox="0 0 48 48" fill="none">
         <circle class="iris-spin" cx="24" cy="24" r="21" stroke="url(#irisGrad)" stroke-width="1.2" stroke-dasharray="2.5 5" opacity="0.85"/>
@@ -269,9 +269,9 @@
         <circle cx="24" cy="24" r="6" fill="url(#pupilGrad)"/>
         <circle cx="21.6" cy="21.6" r="1.5" fill="#fff" opacity="0.85"/>
       </svg>
-      <div class="kicker"><span class="pulse"></span> Adicionar · Remover · Limpar</div>
-      <h1 class="headline">Controle a presença<br>de pessoas e animais<br><em>na cena.</em></h1>
-      <p class="sub">Envie a imagem. Escolha a ação. Receba o prompt pronto para editar com qualquer IA de imagem.</p>
+      <div class="kicker"><span class="pulse"></span> Adicionar Â· Remover Â· Limpar</div>
+      <h1 class="headline">Controle a presenÃ§a<br>de pessoas e animais<br><em>na cena.</em></h1>
+      <p class="sub">Envie a imagem. Escolha a aÃ§Ã£o. Receba o prompt pronto para editar com qualquer IA de imagem.</p>
     </div>
   </section>
 
@@ -282,20 +282,20 @@
         <div class="dockLeft">
           <button class="iconBtn" id="btnMain" title="Imagem principal"><i class="fa-solid fa-image"></i></button>
           <div id="chipMain" class="imgChip"><img id="thumbMain" src="" alt=""><span class="imgLabel" id="labelMain">imagem</span><button class="imgRemove" id="removeMain"><i class="fa-solid fa-xmark"></i></button></div>
-          <button class="iconBtn secondary" id="btnRef" title="Recorte ou referência (opcional)"><i class="fa-solid fa-scissors"></i></button>
-          <div id="chipRef" class="imgChip"><img id="thumbRef" src="" alt=""><span class="imgLabel" id="labelRef">referência</span><button class="imgRemove" id="removeRef"><i class="fa-solid fa-xmark"></i></button></div>
+          <button class="iconBtn secondary" id="btnRef" title="Recorte ou referÃªncia (opcional)"><i class="fa-solid fa-scissors"></i></button>
+          <div id="chipRef" class="imgChip"><img id="thumbRef" src="" alt=""><span class="imgLabel" id="labelRef">referÃªncia</span><button class="imgRemove" id="removeRef"><i class="fa-solid fa-xmark"></i></button></div>
           <div class="status" id="statusText"><span class="dot"></span><span class="t">Envie a imagem principal...</span></div>
         </div>
         <button class="cta" id="btnRun" disabled>Gerar Prompt <i class="fa-solid fa-arrow-right"></i></button>
       </div>
 
       <div class="dockBody">
-        <textarea class="prompt" id="userPrompt" rows="2" placeholder="Descreva o que quer fazer... Ex.: adicionar casal caminhando ao fundo, remover o homem de vermelho na esquerda, colocar cachorro ao lado da criança..."></textarea>
+        <textarea class="prompt" id="userPrompt" rows="2" placeholder="Descreva o que quer fazer... Ex.: adicionar casal caminhando ao fundo, remover o homem de vermelho na esquerda, colocar cachorro ao lado da crianÃ§a..."></textarea>
       </div>
 
       <!-- MODE CARDS -->
       <div class="modeSection">
-        <div class="modeLabel">O que você quer fazer?</div>
+        <div class="modeLabel">O que vocÃª quer fazer?</div>
         <div class="modeRow">
           <button class="modeCard" data-mode="adicionar">
             <i class="fa-solid fa-user-plus" style="color:var(--accent-2)"></i>
@@ -303,7 +303,7 @@
           </button>
           <button class="modeCard active" data-mode="remover-especifico">
             <i class="fa-solid fa-user-minus" style="color:var(--accent-2)"></i>
-            <div><div class="mTitle">Remover específico</div><div class="mSub">Tirar pessoa ou animal específico</div></div>
+            <div><div class="mTitle">Remover especÃ­fico</div><div class="mSub">Tirar pessoa ou animal especÃ­fico</div></div>
           </button>
           <button class="modeCard" data-mode="limpar-tudo">
             <i class="fa-solid fa-users-slash" style="color:var(--accent-2)"></i>
@@ -316,7 +316,7 @@
         <div class="popWrap">
           <button class="chip popTrigger" data-pop="popFormat"><i class="fa-solid fa-crop-simple"></i> Formato: <span class="value" id="formatLabel">16:9</span></button>
           <div class="pop" id="popFormat">
-            <div class="popTitle">Proporção da imagem</div>
+            <div class="popTitle">ProporÃ§Ã£o da imagem</div>
             <div class="ratioRow">
               <button class="ratioBtn active" data-format="16:9"><span class="ratioIcon r169"></span>16:9</button>
               <button class="ratioBtn" data-format="9:16"><span class="ratioIcon r916"></span>9:16</button>
@@ -332,19 +332,19 @@
   <!-- MODALS -->
   <div class="overlay" id="ovConfig">
     <div class="modal">
-      <div class="modalHead"><div><h3>Configurações</h3><div class="sub2">API Key · Conta logada</div></div><button class="closeBtn closeConfigBtn"><i class="fa-solid fa-xmark"></i></button></div>
+      <div class="modalHead"><div><h3>ConfiguraÃ§Ãµes</h3><div class="sub2">API Key Â· Conta logada</div></div><button class="closeBtn closeConfigBtn"><i class="fa-solid fa-xmark"></i></button></div>
       <div class="modalBody">
         <div class="field">
           <label>Google Gemini API Key</label>
-          <div class="hint" style="margin-bottom:14px;">Gratuita. Salva só no seu navegador.</div>
-          <a class="apiLink" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener" style="margin-bottom:4px;display:inline-flex;"><i class="fa-solid fa-key"></i> Criar minha chave grátis <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <div class="hint" style="margin-bottom:14px;">Gratuita. Salva sÃ³ no seu navegador.</div>
+          <a class="apiLink" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener" style="margin-bottom:4px;display:inline-flex;"><i class="fa-solid fa-key"></i> Criar minha chave grÃ¡tis <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           <input type="password" id="apiKey" placeholder="Cole a sua chave aqui (AIza...)" autocomplete="off"/>
           <button class="saveBtn" id="saveKey">Salvar chave</button>
           <div style="margin:22px 0 16px;border-top:1px solid var(--line);"></div>
-          <label>Conta ativa</label><div class="hint" id="userEmailDisplay" style="margin-top:4px;margin-bottom:14px;">—</div>
+          <label>Conta ativa</label><div class="hint" id="userEmailDisplay" style="margin-top:4px;margin-bottom:14px;">â€”</div>
           <button class="saveBtn" id="logoutBtn" style="background:rgba(255,80,80,0.10);border:1px solid rgba(255,80,80,0.24);color:#ff6b6b;"><i class="fa-solid fa-right-from-bracket"></i> Sair da conta</button>
           <div style="margin:22px 0 16px;border-top:1px solid var(--line);"></div>
-          <label>Suporte</label><div class="hint" style="margin-bottom:12px;">Dúvidas? Estamos aqui.</div>
+          <label>Suporte</label><div class="hint" style="margin-bottom:12px;">DÃºvidas? Estamos aqui.</div>
           <a href="mailto:contatolencina.ai@gmail.com" class="apiLink"><i class="fa-solid fa-envelope"></i> contatolencina.ai@gmail.com</a>
         </div>
       </div>
@@ -353,9 +353,9 @@
 
   <div class="overlay" id="ovMain">
     <div class="modal">
-      <div class="modalHead"><div><h3>Imagem Principal</h3><div class="sub2">A cena que você quer editar</div></div><button class="closeBtn closeMainBtn"><i class="fa-solid fa-xmark"></i></button></div>
+      <div class="modalHead"><div><h3>Imagem Principal</h3><div class="sub2">A cena que vocÃª quer editar</div></div><button class="closeBtn closeMainBtn"><i class="fa-solid fa-xmark"></i></button></div>
       <div class="modalBody">
-        <div class="dropSlot" id="slotMain"><i class="fa-solid fa-image"></i><div class="dt">Clique para enviar a imagem principal</div><div class="ds">JPG ou PNG · a cena completa</div></div>
+        <div class="dropSlot" id="slotMain"><i class="fa-solid fa-image"></i><div class="dt">Clique para enviar a imagem principal</div><div class="ds">JPG ou PNG Â· a cena completa</div></div>
         <input type="file" id="fileMain" accept="image/*" style="display:none"/>
       </div>
     </div>
@@ -363,9 +363,9 @@
 
   <div class="overlay" id="ovRef">
     <div class="modal">
-      <div class="modalHead"><div><h3>Referência (Opcional)</h3><div class="sub2">Recorte da pessoa a remover, ou foto de quem quer adicionar</div></div><button class="closeBtn closeRefBtn"><i class="fa-solid fa-xmark"></i></button></div>
+      <div class="modalHead"><div><h3>ReferÃªncia (Opcional)</h3><div class="sub2">Recorte da pessoa a remover, ou foto de quem quer adicionar</div></div><button class="closeBtn closeRefBtn"><i class="fa-solid fa-xmark"></i></button></div>
       <div class="modalBody">
-        <div class="dropSlot" id="slotRef"><i class="fa-solid fa-scissors"></i><div class="dt">Clique para enviar o recorte ou referência</div><div class="ds">JPG ou PNG · opcional mas melhora a precisão</div></div>
+        <div class="dropSlot" id="slotRef"><i class="fa-solid fa-scissors"></i><div class="dt">Clique para enviar o recorte ou referÃªncia</div><div class="ds">JPG ou PNG Â· opcional mas melhora a precisÃ£o</div></div>
         <input type="file" id="fileRef" accept="image/*" style="display:none"/>
       </div>
     </div>
@@ -393,7 +393,7 @@
     $('btnConfig').onclick = () => { const k=(localStorage.getItem(APP_KEY)||'').trim(); if(k) $('apiKey').value=k; openModal('ovConfig'); };
     $('saveKey').onclick = () => { localStorage.setItem(APP_KEY,$('apiKey').value.trim()); updateRun(); closeModal('ovConfig'); alert('Chave guardada!'); };
 
-    async function processImg(file,maxSide){ return new Promise((res,rej)=>{ const reader=new FileReader(); reader.onload=(e)=>{ const img=new Image(); img.onload=()=>{ const canvas=document.createElement('canvas'); const scale=Math.min(maxSide/img.width,maxSide/img.height,1); canvas.width=Math.round(img.width*scale); canvas.height=Math.round(img.height*scale); canvas.getContext('2d').drawImage(img,0,0,canvas.width,canvas.height); res(canvas.toDataURL('image/jpeg',0.85)); }; img.onerror=()=>rej(new Error('Imagem inválida')); img.src=e.target.result; }; reader.onerror=()=>rej(new Error('Erro')); reader.readAsDataURL(file); }); }
+    async function processImg(file,maxSide){ return new Promise((res,rej)=>{ const reader=new FileReader(); reader.onload=(e)=>{ const img=new Image(); img.onload=()=>{ const canvas=document.createElement('canvas'); const scale=Math.min(maxSide/img.width,maxSide/img.height,1); canvas.width=Math.round(img.width*scale); canvas.height=Math.round(img.height*scale); canvas.getContext('2d').drawImage(img,0,0,canvas.width,canvas.height); res(canvas.toDataURL('image/jpeg',0.85)); }; img.onerror=()=>rej(new Error('Imagem invÃ¡lida')); img.src=e.target.result; }; reader.onerror=()=>rej(new Error('Erro')); reader.readAsDataURL(file); }); }
 
     $('btnMain').onclick = () => openModal('ovMain');
     $('slotMain').onclick = () => $('fileMain').click();
@@ -434,7 +434,7 @@
     document.querySelectorAll('.closePromptBtn').forEach(b=>b.onclick=()=>closeModal('ovPrompt'));
     document.querySelectorAll('.overlay').forEach(o=>o.addEventListener('click',e=>{if(e.target===o)o.classList.remove('show');}));
 
-    function updateRun(){ const key=(localStorage.getItem(APP_KEY)||'').trim(); const loggedIn=!!firebase.auth().currentUser; $('btnRun').disabled=!state.main||!key||!loggedIn; const st=$('statusText'); if(!key){st.className='status';st.querySelector('.t').innerText='Configure sua API Key em Conta';} else if(!state.main){st.className='status';st.querySelector('.t').innerText='Envie a imagem principal';} else{st.className='status ready';st.querySelector('.t').innerText='Pronto — modo: '+{'adicionar':'Adicionar','remover-especifico':'Remover específico','limpar-tudo':'Limpar tudo'}[state.mode];} }
+    function updateRun(){ const key=(localStorage.getItem(APP_KEY)||'').trim(); const loggedIn=!!firebase.auth().currentUser; $('btnRun').disabled=!state.main||!key||!loggedIn; const st=$('statusText'); if(!key){st.className='status';st.querySelector('.t').innerText='Configure sua API Key em Conta';} else if(!state.main){st.className='status';st.querySelector('.t').innerText='Envie a imagem principal';} else{st.className='status ready';st.querySelector('.t').innerText='Pronto â€” modo: '+{'adicionar':'Adicionar','remover-especifico':'Remover especÃ­fico','limpar-tudo':'Limpar tudo'}[state.mode];} }
 
     $('btnRun').onclick = async () => {
       $('btnRun').disabled=true; const st=$('statusText'); st.className='status ready'; st.querySelector('.t').innerText='Gerando prompt...';
@@ -442,17 +442,17 @@
         const idToken = await firebase.auth().currentUser.getIdToken();
         const payload = { key:(localStorage.getItem(APP_KEY)||'').trim(), idToken, configs:{ acao:state.mode, formato:state.format, instrucoes:$('userPrompt').value }, images:{ main:state.main, ref:state.ref||null } };
         const res = await fetch(COFRE_URL,{method:'POST',body:JSON.stringify(payload)});
-        const txt = await res.text(); let data; try{data=JSON.parse(txt);}catch{throw new Error('Resposta inválida: '+txt.slice(0,200));}
+        const txt = await res.text(); let data; try{data=JSON.parse(txt);}catch{throw new Error('Resposta invÃ¡lida: '+txt.slice(0,200));}
         if(data.status==='success'){$('promptResult').innerText=data.prompt||data.prompt_used||''; openModal('ovPrompt'); st.querySelector('.t').innerText='Prompt pronto!';}
         else{alert(data.message||'Erro desconhecido.'); st.querySelector('.t').innerText='Erro na IA';}
-      } catch(e){ alert('Falha de conexão.\n\n'+e.message); st.className='status'; st.querySelector('.t').innerText='Cofre offline'; }
+      } catch(e){ alert('Falha de conexÃ£o.\n\n'+e.message); st.className='status'; st.querySelector('.t').innerText='Cofre offline'; }
       finally{ setTimeout(updateRun,1400); }
     };
 
     $('copyBtn').onclick = async () => { await navigator.clipboard.writeText($('promptResult').innerText); alert('Prompt copiado!'); };
 
-    firebase.auth().onAuthStateChanged(user=>{ if(user){$('loginGate').classList.add('hidden');$('userEmailDisplay').textContent=user.email;}else{$('loginGate').classList.remove('hidden');$('userEmailDisplay').textContent='—';}updateRun(); });
-    $('loginBtn').onclick = async () => { const btn=$('loginBtn'),err=$('loginErr'),email=$('loginEmail').value.trim(),pass=$('loginPass').value; err.textContent=''; btn.disabled=true; btn.textContent='Entrando...'; try{await firebase.auth().signInWithEmailAndPassword(email,pass);}catch(e){const msgs={'auth/invalid-email':'E-mail inválido.','auth/user-not-found':'Usuário não encontrado.','auth/wrong-password':'Senha incorreta.','auth/invalid-credential':'E-mail ou senha inválidos.','auth/too-many-requests':'Muitas tentativas.'}; err.textContent=msgs[e.code]||'Erro ao entrar.'; btn.disabled=false; btn.textContent='Entrar';} };
+    firebase.auth().onAuthStateChanged(user=>{ if(user){$('loginGate').classList.add('hidden');$('userEmailDisplay').textContent=user.email;}else{$('loginGate').classList.remove('hidden');$('userEmailDisplay').textContent='â€”';}updateRun(); });
+    $('loginBtn').onclick = async () => { const btn=$('loginBtn'),err=$('loginErr'),email=$('loginEmail').value.trim(),pass=$('loginPass').value; err.textContent=''; btn.disabled=true; btn.textContent='Entrando...'; try{await firebase.auth().signInWithEmailAndPassword(email,pass);}catch(e){const msgs={'auth/invalid-email':'E-mail invÃ¡lido.','auth/user-not-found':'UsuÃ¡rio nÃ£o encontrado.','auth/wrong-password':'Senha incorreta.','auth/invalid-credential':'E-mail ou senha invÃ¡lidos.','auth/too-many-requests':'Muitas tentativas.'}; err.textContent=msgs[e.code]||'Erro ao entrar.'; btn.disabled=false; btn.textContent='Entrar';} };
     $('loginPass').addEventListener('keydown',e=>{if(e.key==='Enter')$('loginBtn').click();});
     $('logoutBtn').onclick = async () => { await firebase.auth().signOut(); closeModal('ovConfig'); };
     window.onload = () => { const k=(localStorage.getItem(APP_KEY)||'').trim(); if(k) $('apiKey').value=k; };
